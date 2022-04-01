@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu img {
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  padding: 3px;
+}
+
+header .boton a {
+  font-size: 25px;
+  font-style: bold;
+  background-color: yellow;
+  color: black;
+  padding: 30px 10px;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  background: url(/WebBandaMusical/DoAsEncabezado.webp);
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-y-menu {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* centrado de linea horizontal
+align-items: center; */
+
+/* dispocision horizontal
+display: flex; */
+
+/* rm -fr .git */

@@ -1,22 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Inconsolata", monospace;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu img {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   background-color: #fff;
-  padding: 3px;
-}
-
-header .boton a {
-  font-size: 25px;
-  font-style: bold;
-  background-color: yellow;
-  color: black;
-  padding: 30px 10px;
-  text-decoration: none;
+  padding: 0px 10px;
+  margin: 4px;
+  border-radius: 5%;
 }
 
 li {
@@ -31,12 +26,14 @@ li {
 
 header {
   background: url(/WebBandaMusical/DoAsEncabezado.webp);
+  height: 80vh;
 }
 
 header .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 header .logo-y-menu {
@@ -56,6 +53,35 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 25px;
+}
+
+header .boton a,
+.botones a {
+  font-size: 25px;
+  font-style: bold;
+  background-color: yellow;
+  color: black;
+  padding: 20px 10px;
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+.blanco {
+  background-color: #fff !important;
+}
+
+.amarilo {
+  color: yellow;
+}
+
+header .titular {
+  margin-top: 30vh;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  width: 30%;
 }
 
 /* centrado de linea horizontal

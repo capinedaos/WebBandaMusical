@@ -5,6 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* logo */
 .menu img {
   height: 70px;
   width: 70px;
@@ -14,21 +15,25 @@ body {
   border-radius: 5%;
 }
 
+/* retira subrayado */
 li {
   list-style: none;
 }
 
+/* contenedor principal header */
 .contenedor {
   width: 90%;
   max-width: 1280px;
   margin: auto;
 }
 
+/* imagen header */
 header {
   background: url(/WebBandaMusical/DoAsEncabezado.webp);
-  height: 80vh;
+  height: 70vh;
 }
 
+/* barra menu */
 header .menu {
   display: flex;
   justify-content: space-between;
@@ -41,39 +46,48 @@ header .logo-y-menu {
   align-items: center;
 }
 
+/* menu horizontal */
 nav ul {
   display: flex;
 }
 
+/* espacio opc menu horizontal */
 nav ul li {
   margin: 0px 20px;
 }
 
+/* style opc menu */
 nav ul li a {
   color: #fff;
+  /* elimina viñetas */
   text-decoration: none;
   font-size: 25px;
 }
 
+/* style botones */
 header .boton a,
-.botones a {
+.botones a,
+#discografia a {
   font-size: 25px;
   font-style: bold;
   background-color: yellow;
   color: black;
-  padding: 20px 10px;
+  padding: 10px 10px;
   text-decoration: none;
   border-radius: 5%;
 }
 
+/* style boton Tour */
 .blanco {
   background-color: #fff !important;
 }
 
+/* style texto titutar */
 .amarilo {
   color: yellow;
 }
 
+/* style texto titular */
 header .titular {
   margin-top: 30vh;
   color: white;
@@ -81,13 +95,66 @@ header .titular {
 
 h1 {
   font-size: 50px;
-  width: 30%;
+  /* ancho horizontal */
+  width: 40%;
 }
 
-/* centrado de linea horizontal
-align-items: center; */
+#discografia {
+  background: #000;
+  color: #fff;
+  padding: 60px 0;
+}
 
-/* dispocision horizontal
-display: flex; */
+#discografia h4 {
+  /* elimina margin de h4 que tiene por defecto y separa el header de la seccion */
+  margin: 0;
+  color: yellow;
+  border: 1px solid #ccc;
+  /* ancho */
+  width: 90px;
+  padding: 10px;
+  border-radius: 20px;
+}
 
-/* rm -fr .git */
+/* posicion horizontal texto y img caratula */
+#discografia .contenedor {
+  display: flex;
+  align-items: center;
+}
+
+/* style texto h2 */
+#discografia span {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#discografia h2 {
+  font-size: 50px;
+  /* quitamos margin por defecto */
+  margin-bottom: 10px;
+}
+
+#discografia p {
+  font-size: 14px;
+  /* separacion de lineas */
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+/* disminuye mucho el tamaño
+#discografia img {
+  width:100%;
+} */
+
+#discografia .texto {
+  width: 60%;
+}
+
+/* #discografia .foto {
+  width: 70%;
+} */
+
+#discografia img {
+  width: 400px;
+  height: 400px;
+}

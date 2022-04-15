@@ -20,7 +20,7 @@ li {
   list-style: none;
 }
 
-/* contenedor principal header */
+/* contenedor principal  */
 .contenedor {
   width: 90%;
   max-width: 1280px;
@@ -67,7 +67,8 @@ nav ul li a {
 /* style botones */
 header .boton a,
 .botones a,
-#discografia a {
+#discografia a,
+#tour a {
   font-size: 25px;
   font-style: bold;
   background-color: yellow;
@@ -105,13 +106,13 @@ h1 {
   padding: 60px 0;
 }
 
-#discografia h4 {
+h4 {
   /* elimina margin de h4 que tiene por defecto y separa el header de la seccion */
   margin: 0;
   color: yellow;
   border: 1px solid #ccc;
   /* ancho */
-  width: 90px;
+  width: 85px;
   padding: 10px;
   border-radius: 20px;
 }
@@ -141,20 +142,98 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* disminuye mucho el tamaño
-#discografia img {
-  width:100%;
-} */
-
 #discografia .texto {
   width: 60%;
+  /* border: 1px solid white; */
 }
 
-/* #discografia .foto {
-  width: 70%;
-} */
-
 #discografia img {
-  width: 400px;
-  height: 400px;
+  /* border: 1px solid white; */
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.contenedor-textos {
+  display: flex;
+}
+
+#about h4 {
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.negro {
+  background-color: #aaa !important;
+  margin-left: 1rem;
+}
+
+#about {
+  padding: 100px 0;
+}
+
+#about p {
+  line-height: 27px;
+}
+
+#about .botones {
+  margin-top: 2rem;
+  /* border: 1px solid #000; */
+}
+
+#tour {
+  background-color: yellow;
+  padding: 60px 0;
+}
+
+#tour .contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tour img {
+  width: 100%;
+}
+
+#tour .texto {
+  width: 50%;
+}
+
+#tour .imagen {
+  width: 40%;
+  position: relative;
+  top: -110px;
+}
+
+#tour h4 {
+  color: #000;
+  text-align: center;
+}
+
+.fechas {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #cccccc57;
+  padding-bottom: 30px;
+}
+
+.fechas .numero {
+  font-size: 34px;
+}
+
+.fechas h5,
+.fechas p {
+  margin: 0;
+}
+
+.fechas h5 {
+  font-size: 20px;
+}
+
+
+footer{
+  text-align: center;
 }
